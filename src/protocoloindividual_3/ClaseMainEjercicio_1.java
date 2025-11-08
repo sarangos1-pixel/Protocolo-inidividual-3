@@ -9,12 +9,11 @@ package protocoloindividual_3;
  * @author Sebastian
  */
 public class ClaseMainEjercicio_1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public static void main(String[] args) {
+        Figura circulo = new Circulo(5);
+        circulo.mostrarArea(); 
+        Figura rectangulo = new Rectangulo(4, 6);
+        rectangulo.mostrarArea(); 
     }
     
 }
