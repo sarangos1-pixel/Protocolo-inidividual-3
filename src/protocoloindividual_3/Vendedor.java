@@ -8,6 +8,18 @@ package protocoloindividual_3;
  *
  * @author Sebastian
  */
-public class Vendedor {
-    
+public class Vendedor extends Empleado {
+    private double ventas;
+    private double comision;
+
+    public Vendedor(String nombre, double ventas, double comision) {
+        super(nombre);
+        this.ventas = ventas;
+        this.comision = comision;
+    }
+
+    @Override
+    public void calcularSalario() {
+        System.out.println("Salario del vendedor (comisión por ventas): " + (ventas * comision));
+    }
 }
