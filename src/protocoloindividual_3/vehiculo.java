@@ -22,4 +22,5 @@ public abstract class Vehiculo {
     public void mostrarMarca() {
         System.out.println("Marca del vehículo: " + marca);
     }
+    
 }
