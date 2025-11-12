@@ -18,4 +18,5 @@ public class claseVehiculoError {
         v.mostrarMarca();
         v.acelerar();
     }
+    
 }
